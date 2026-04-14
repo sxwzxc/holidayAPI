@@ -53,6 +53,39 @@ export default function Home() {
         </Card>
       </section>
 
+      <section className="mb-8">
+        <Card className="border-slate-700 bg-slate-900">
+          <CardHeader>
+            <CardTitle className="text-xl">iPhone 快捷指令</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p className="text-sm text-slate-300 mb-4">节假日自动跳过闹钟的 iOS 快捷指令</p>
+            <a
+              href="https://www.icloud.com/shortcuts/29a96f16c669472e9ec3c994cf645086"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block rounded-lg bg-blue-600 px-4 py-2.5 font-semibold text-white hover:bg-blue-700 transition-colors"
+            >
+              添加快捷指令
+            </a>
+            
+            <div className="mt-6 space-y-3 text-sm text-slate-300">
+              <p className="font-semibold text-slate-100">使用步骤：</p>
+              <ol className="list-decimal list-inside space-y-2 ml-2">
+                <li>点击上方按钮添加快捷指令到快捷指令 App</li>
+                <li className="font-semibold text-amber-300">首次添加后，请点击快捷指令进行一次手动运行</li>
+                <li>打开「快捷指令」应用 → 切换到「自动化」标签</li>
+                <li>创建新自动化 → 选择「时间」→ 设置每天凌晨 00:05 运行</li>
+                <li>选择上面添加的快捷指令 → 关闭「运行前询问」→ 完成</li>
+              </ol>
+              <p className="mt-4 text-slate-400 text-xs">
+                💡 快捷指令会自动判断今天是否放假，是放假则禁用所有闹钟，否则启用闹钟。
+              </p>
+            </div>
+          </CardContent>
+        </Card>
+      </section>
+
       <section>
         <Card className="border-slate-700 bg-slate-900">
           <CardHeader>
