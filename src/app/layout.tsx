@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Cloud Functions on EdgeOne Pages - Koa",
-  description: "Cloud Functions allow you to run code in a Node Runtime without managing servers.",
+  title: "中国节假日查询",
+  description: "基于 holidayAPI.json 的中国节假日与调休查询网站",
 };
 
 export default function RootLayout({
@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="zh-CN" className="dark">
       <head>
         <link rel="icon" href="/eo-logo-blue.svg" />
       </head>

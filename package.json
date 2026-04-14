@@ -1,5 +1,5 @@
 {
-  "name": "koa-template",
+  "name": "holiday-api",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@koa/router": "^14.0.0",
     "@radix-ui/react-slot": "^1.2.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "koa": "^3.0.1",
-    "lucide-react": "^0.539.0",
     "next": "15.4.6",
     "react": "19.1.0",
     "react-dom": "19.1.0",
